@@ -29,7 +29,7 @@ log = get_logger()
 
 _settings_for_import = Settings()
 if _settings_for_import.use_fake:
-  from fake_llm import Question, Answer, FakeLLMError, fake_ask_llm
+  from src.week2.pipeline.fake_llm import Question, Answer, FakeLLMError, fake_ask_llm
 else:
   from dotenv import load_dotenv
   from openai import AsyncOpenAI
@@ -162,6 +162,9 @@ if __name__ == "__main__":
 
   #[log.info(f"asked: {question.text}") for question in sample]
   #answers = asyncio.run(run_batch(sample, fail_rate=settings.fail_rate))
+  # print(f"\n{len(answers)} answers in {elapsed: .2f} seconds)\n")
+  # for a in answers:
+  #   print(f"- {a.text[:80]}")
   
   questions = load_questions(settings.questions_csv)
   log.info(f"loaded {len(questions)} questions")
@@ -195,9 +198,14 @@ if __name__ == "__main__":
   )
   print(f"wrote {len(answers)} answers to {settings.results_json} in {elapsed:.2f}s ")
 
+  # SQLite persistence
+  # Deferred import: store.py imports Answer from this module; top-level import
+  # would cause a circular import.
+  from src.week2.pipeline.store import connect, write_run, write_answers
+  with connect(settings.results_db) as con:
+    run_id = write_run(con, summary)
+    n      = write_answers(con, run_id, answers)
+  log.info(f"persisted run {run_id} with {n} answers to {settings.results_db}")
 
-  # print(f"\n{len(answers)} answers in {elapsed: .2f} seconds)\n")
-  # for a in answers:
-  #   print(f"- {a.text[:80]}")
 
   

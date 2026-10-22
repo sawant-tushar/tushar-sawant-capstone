@@ -1,12 +1,12 @@
 {
   "summary": {
-    "started_at": 1792673223.6268759,
-    "elapsed_seconds": 5.864553213119507,
+    "started_at": 1792681312.6289225,
+    "elapsed_seconds": 11.75672459602356,
     "n_questions": 20,
     "n_succeeded": 20,
-    "n_retries_total": 0,
+    "n_retries_total": 4,
     "total_cost_usd": 0.002,
-    "fail_rate": 0.0,
+    "fail_rate": 0.3,
     "use_fake": false
   },
   "answers": [
@@ -86,13 +86,13 @@
       "question": "What does HTTP status code 422 mean?",
       "text": "(simulated answer) A grounded, concise response to: What does HTTP status code 422 mean?",
       "cost_usd": 0.0001,
-      "retries": 0
+      "retries": 2
     },
     {
       "question": "Why do we use parameterised SQL queries instead of f-string concatenation?",
       "text": "(simulated answer) A grounded, concise response to: Why do we use parameterised SQL queries instead of f-string concatenation?",
       "cost_usd": 0.0001,
-      "retries": 0
+      "retries": 1
     },
     {
       "question": "What is the difference between SELECT and INSERT in SQL?",
@@ -110,7 +110,7 @@
       "question": "What is the purpose of a unit test?",
       "text": "(simulated answer) A grounded, concise response to: What is the purpose of a unit test?",
       "cost_usd": 0.0001,
-      "retries": 0
+      "retries": 1
     },
     {
       "question": "How does a Python virtual environment help with package management?",

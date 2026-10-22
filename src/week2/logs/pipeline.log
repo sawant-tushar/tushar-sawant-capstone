@@ -41,3 +41,56 @@
 {"ts": 1792673226.735, "level": "INFO", "msg": "batch 3 : 5 questions", "logger": "pipeline"}
 {"ts": 1792673228.026, "level": "INFO", "msg": "batch 4 : 5 questions", "logger": "pipeline"}
 {"ts": 1792673229.492, "level": "INFO", "msg": "summary: {\"started_at\":1792673223.6268759,\"elapsed_seconds\":5.864553213119507,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":false}", "logger": "pipeline"}
+{"ts": 1792679892.09, "level": "INFO", "msg": "config: {'questions_csv': 'src\\\\week2\\\\data\\\\questions.csv', 'results_json': 'src\\\\week2\\\\data\\\\results.json', 'results_db': 'src\\\\week2\\\\data\\\\results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': False}", "logger": "pipeline"}
+{"ts": 1792679892.091, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1792679892.093, "level": "INFO", "msg": "batch 1 : 5 questions", "logger": "pipeline"}
+{"ts": 1792679893.662, "level": "INFO", "msg": "batch 2 : 5 questions", "logger": "pipeline"}
+{"ts": 1792679895.154, "level": "INFO", "msg": "batch 3 : 5 questions", "logger": "pipeline"}
+{"ts": 1792679896.559, "level": "INFO", "msg": "batch 4 : 5 questions", "logger": "pipeline"}
+{"ts": 1792679897.847, "level": "INFO", "msg": "summary: {\"started_at\":1792679892.090926,\"elapsed_seconds\":5.75580096244812,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":false}", "logger": "pipeline"}
+{"ts": 1792680058.792, "level": "INFO", "msg": "config: {'questions_csv': 'src\\\\week2\\\\data\\\\questions.csv', 'results_json': 'src\\\\week2\\\\data\\\\results.json', 'results_db': 'src\\\\week2\\\\data\\\\results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': True}", "logger": "pipeline"}
+{"ts": 1792680058.793, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1792680058.795, "level": "INFO", "msg": "batch 1 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680060.112, "level": "INFO", "msg": "batch 2 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680061.383, "level": "INFO", "msg": "batch 3 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680062.875, "level": "INFO", "msg": "batch 4 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680064.359, "level": "INFO", "msg": "summary: {\"started_at\":1792680058.7934518,\"elapsed_seconds\":5.565467834472656,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":true}", "logger": "pipeline"}
+{"ts": 1792680104.996, "level": "INFO", "msg": "config: {'questions_csv': 'src\\\\week2\\\\data\\\\questions.csv', 'results_json': 'src\\\\week2\\\\data\\\\results.json', 'results_db': 'src\\\\week2\\\\data\\\\results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': True}", "logger": "pipeline"}
+{"ts": 1792680104.997, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1792680104.999, "level": "INFO", "msg": "batch 1 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680106.597, "level": "INFO", "msg": "batch 2 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680108.213, "level": "INFO", "msg": "batch 3 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680109.732, "level": "INFO", "msg": "batch 4 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680110.682, "level": "INFO", "msg": "summary: {\"started_at\":1792680104.9969287,\"elapsed_seconds\":5.685016870498657,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":true}", "logger": "pipeline"}
+{"ts": 1792680167.154, "level": "INFO", "msg": "config: {'questions_csv': 'src\\\\week2\\\\data\\\\questions.csv', 'results_json': 'src\\\\week2\\\\data\\\\results.json', 'results_db': 'src\\\\week2\\\\data\\\\results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': True}", "logger": "pipeline"}
+{"ts": 1792680167.155, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1792680167.156, "level": "INFO", "msg": "batch 1 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680168.416, "level": "INFO", "msg": "batch 2 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680169.962, "level": "INFO", "msg": "batch 3 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680171.232, "level": "INFO", "msg": "batch 4 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680172.667, "level": "INFO", "msg": "summary: {\"started_at\":1792680167.1549246,\"elapsed_seconds\":5.511727571487427,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":true}", "logger": "pipeline"}
+{"ts": 1792680172.711, "level": "INFO", "msg": "persisted run 1 with 20 answers to src\\week2\\data\\results.db", "logger": "pipeline"}
+{"ts": 1792680338.784, "level": "INFO", "msg": "config: {'questions_csv': 'src\\\\week2\\\\data\\\\questions.csv', 'results_json': 'src\\\\week2\\\\data\\\\results.json', 'results_db': 'src\\\\week2\\\\data\\\\results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': False}", "logger": "pipeline"}
+{"ts": 1792680338.785, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1792680338.786, "level": "INFO", "msg": "batch 1 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680340.206, "level": "INFO", "msg": "batch 2 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680341.755, "level": "INFO", "msg": "batch 3 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680343.128, "level": "INFO", "msg": "batch 4 : 5 questions", "logger": "pipeline"}
+{"ts": 1792680344.194, "level": "INFO", "msg": "summary: {\"started_at\":1792680338.78496,\"elapsed_seconds\":5.408946514129639,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":false}", "logger": "pipeline"}
+{"ts": 1792680344.225, "level": "INFO", "msg": "persisted run 2 with 20 answers to src\\week2\\data\\results.db", "logger": "pipeline"}
+{"ts": 1792681271.252, "level": "INFO", "msg": "config: {'questions_csv': 'src\\\\week2\\\\data\\\\questions.csv', 'results_json': 'src\\\\week2\\\\data\\\\results.json', 'results_db': 'src\\\\week2\\\\data\\\\results.db', 'batch_size': 5, 'fail_rate': 0.0, 'model': 'gpt-4o-mini', 'use_fake': False}", "logger": "pipeline"}
+{"ts": 1792681271.253, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1792681271.255, "level": "INFO", "msg": "batch 1 : 5 questions", "logger": "pipeline"}
+{"ts": 1792681272.772, "level": "INFO", "msg": "batch 2 : 5 questions", "logger": "pipeline"}
+{"ts": 1792681274.143, "level": "INFO", "msg": "batch 3 : 5 questions", "logger": "pipeline"}
+{"ts": 1792681275.448, "level": "INFO", "msg": "batch 4 : 5 questions", "logger": "pipeline"}
+{"ts": 1792681276.902, "level": "INFO", "msg": "summary: {\"started_at\":1792681271.2531745,\"elapsed_seconds\":5.648553371429443,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.002,\"fail_rate\":0.0,\"use_fake\":false}", "logger": "pipeline"}
+{"ts": 1792681276.964, "level": "INFO", "msg": "persisted run 3 with 20 answers to src\\week2\\data\\results.db", "logger": "pipeline"}
+{"ts": 1792681312.628, "level": "INFO", "msg": "config: {'questions_csv': 'src\\\\week2\\\\data\\\\questions.csv', 'results_json': 'src\\\\week2\\\\data\\\\results.json', 'results_db': 'src\\\\week2\\\\data\\\\results.db', 'batch_size': 5, 'fail_rate': 0.3, 'model': 'gpt-4o-mini', 'use_fake': False}", "logger": "pipeline"}
+{"ts": 1792681312.629, "level": "INFO", "msg": "loaded 20 questions", "logger": "pipeline"}
+{"ts": 1792681312.631, "level": "INFO", "msg": "batch 1 : 5 questions", "logger": "pipeline"}
+{"ts": 1792681314.14, "level": "INFO", "msg": "batch 2 : 5 questions", "logger": "pipeline"}
+{"ts": 1792681315.207, "level": "INFO", "msg": "batch 3 : 5 questions", "logger": "pipeline"}
+{"ts": 1792681321.587, "level": "INFO", "msg": "batch 4 : 5 questions", "logger": "pipeline"}
+{"ts": 1792681324.386, "level": "INFO", "msg": "summary: {\"started_at\":1792681312.6289225,\"elapsed_seconds\":11.75672459602356,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":4,\"total_cost_usd\":0.002,\"fail_rate\":0.3,\"use_fake\":false}", "logger": "pipeline"}
+{"ts": 1792681324.451, "level": "INFO", "msg": "persisted run 4 with 20 answers to src\\week2\\data\\results.db", "logger": "pipeline"}
