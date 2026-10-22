@@ -14,7 +14,7 @@ import json
 import logging
 import time
 
-from fake_llm import Question, Answer, fake_ask_llm, FakeLLMError
+from week2.pipeline.fake_llm import Question, Answer, fake_ask_llm, FakeLLMError
 
 # ---------- Step 2: one async call ----------
 async def ask_llm(q: Question, fail_rate: float = 0.0) -> Answer:

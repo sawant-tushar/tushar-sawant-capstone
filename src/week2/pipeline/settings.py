@@ -11,13 +11,13 @@ from pydantic import BaseModel, Field
 
 class Settings(BaseModel):
   """Runtime configuration. Validated at construction."""
-  questions_csv:  Path = Path("data/questions.csv")
-  results_json:   Path = Path("data/results.json")
-  results_db:     Path = Path("data/results.db")
+  questions_csv:  Path = Path("src/week2/data/questions.csv")
+  results_json:   Path = Path("src/week2/data/results.json")
+  results_db:     Path = Path("src/week2/data/results.db")
   batch_size:     int = Field(5, gt=0, le=20)
   fail_rate:      int = Field(0.0, ge =0, le=1.0)
   model:          str = "gpt-4o-mini"
-  use_fake:       bool = True
+  use_fake:       bool = False
 
 class RunSummary(BaseModel):
   """One row per pipeline execution. Persisted to the `runs` table."""
