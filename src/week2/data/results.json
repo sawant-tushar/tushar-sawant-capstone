@@ -1,0 +1,134 @@
+{
+  "summary": {
+    "started_at": 1792673223.6268759,
+    "elapsed_seconds": 5.864553213119507,
+    "n_questions": 20,
+    "n_succeeded": 20,
+    "n_retries_total": 0,
+    "total_cost_usd": 0.002,
+    "fail_rate": 0.0,
+    "use_fake": false
+  },
+  "answers": [
+    {
+      "question": "What is retrieval-augmented generation in one sentence?",
+      "text": "A retriever takes a user query, finds the most relevant chunks in the vector store, and passes them to the LLM as grounding context.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Name three real-world uses of vector databases.",
+      "text": "Vector databases power semantic search, RAG context retrieval, and recommendation systems by storing high-dimensional embeddings of text.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Why might an LLM produce confident but wrong answers?",
+      "text": "(simulated answer) A grounded, concise response to: Why might an LLM produce confident but wrong answers?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is a Pydantic BaseModel and how does it differ from a dataclass?",
+      "text": "Pydantic gives you typed Python classes that validate data at runtime \u2014 ideal for checking LLM outputs match the shape your code expects.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Explain async and await in Python in two sentences.",
+      "text": "Async Python lets one program work on many I/O-bound tasks at once: while awaiting a network call, the event loop runs other tasks instead of blocking.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What's the difference between asyncio.gather and a sequential await loop?",
+      "text": "Async Python lets one program work on many I/O-bound tasks at once: while awaiting a network call, the event loop runs other tasks instead of blocking.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "How does exponential backoff differ from constant-interval retry?",
+      "text": "Exponential backoff doubles the wait between retries so a flaky API has time to recover and you don't hammer it with rapid-fire requests.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Why is JSON-formatted logging better than plain text for production?",
+      "text": "(simulated answer) A grounded, concise response to: Why is JSON-formatted logging better than plain text for production?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What does the @app.post decorator do in FastAPI?",
+      "text": "(simulated answer) A grounded, concise response to: What does the @app.post decorator do in FastAPI?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is the role of a foreign key in a SQLite schema?",
+      "text": "(simulated answer) A grounded, concise response to: What is the role of a foreign key in a SQLite schema?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Why should API keys be loaded from environment variables",
+      "text": "(simulated answer) A grounded, concise response to: Why should API keys be loaded from environment variables",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What are the main steps in a typical RAG pipeline?",
+      "text": "RAG combines retrieval over a document corpus with an LLM, so answers are grounded in your source material rather than the model's training data.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What does HTTP status code 422 mean?",
+      "text": "(simulated answer) A grounded, concise response to: What does HTTP status code 422 mean?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Why do we use parameterised SQL queries instead of f-string concatenation?",
+      "text": "(simulated answer) A grounded, concise response to: Why do we use parameterised SQL queries instead of f-string concatenation?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is the difference between SELECT and INSERT in SQL?",
+      "text": "(simulated answer) A grounded, concise response to: What is the difference between SELECT and INSERT in SQL?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Explain what dependency injection means in software design.",
+      "text": "(simulated answer) A grounded, concise response to: Explain what dependency injection means in software design.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What is the purpose of a unit test?",
+      "text": "(simulated answer) A grounded, concise response to: What is the purpose of a unit test?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "How does a Python virtual environment help with package management?",
+      "text": "(simulated answer) A grounded, concise response to: How does a Python virtual environment help with package management?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "What does \"rate limiting\" mean in the context of APIs?",
+      "text": "(simulated answer) A grounded, concise response to: What does \"rate limiting\" mean in the context of APIs?",
+      "cost_usd": 0.0001,
+      "retries": 0
+    },
+    {
+      "question": "Name three reasons an LLM might hallucinate.",
+      "text": "LLMs hallucinate when they produce confident text that isn't grounded in evidence \u2014 usually because the prompt invites speculation or training coverage is thin.",
+      "cost_usd": 0.0001,
+      "retries": 0
+    }
+  ]
+}
